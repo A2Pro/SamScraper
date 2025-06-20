@@ -140,7 +140,7 @@ Please be thorough and specific based on what you can see in these screenshots."
         
         print(f"Analysis saved to {output_file}")
         print("-" * 50)
-        print(analysis[:500] + "..." if len(analysis) > 500 else analysis)
+        print(analysis)
         print("-" * 50)
         print(f"Successfully analyzed link {i}")
         
